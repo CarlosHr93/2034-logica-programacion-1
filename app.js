@@ -27,9 +27,31 @@
 // let mensajeError = '¡Error! Completa todos los campos';
 // // alert(mensajeError);
 
-// let NombreUsuario = prompt('Introdusca su nombre:');
-
+// let NombreUsuario = prompt('Introdusca su nombre:'); //nombre y edad para licencia
 // let Edad = prompt('Introdusca su edad:');
 //     if(Edad <= 18){
 //         alert("¡Puedes obtener tu licencia de conducir! ,"+NombreUsuario);
 //     }else{alert('¡NO Puedes obtener tu licencia de conducir!');}
+
+// BLOQUE DE EJERCICIOS 2
+
+// let DiaSemana = prompt("Que dia de la semana es:");  // Buen fin de semana y buena semana
+// if(DiaSemana == "Sabado" && "Domingo"){
+//     alert("Buen fin de semana");
+// }else{
+//     alert("buena semana");
+// }
+
+// let NumeroEvaluar = prompt("Ingresa un numero para evaluar:"); //numero positivo y negativos
+// if(NumeroEvaluar >= 0){
+//     alert("el numero ingresado es positivo");
+// }else{
+//     alert("EL numero ingresado es negativo");
+// }
+
+// let Puntuacion = prompt("Ingresa un numero para evaluar:"); //Puntuacion para ganar
+// if(Puntuacion >= 100){
+//     alert("¡Felicidades, has ganado!");
+// }else{
+//     alert("Intenta nuevamente para ganar.");
+// }
