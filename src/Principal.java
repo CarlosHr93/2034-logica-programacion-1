@@ -1,11 +1,11 @@
 import com.misitio.clase.Pelicula;
-import com.misitio.clase.Titulo;
+import com.misitio.clase.Serie;
 
 public class Principal {
     public static void main(String[] args) {
-        Titulo miPeli = new Titulo();
+        Pelicula miPeli = new Pelicula();
         miPeli.setNombre("Harry Potter");
-        miPeli.setDuracionPelicula(120);
+        miPeli.setDuracion(120);
         miPeli.setFechaLanzamiento(2021);
 
         miPeli.evaluacion(10);
@@ -14,5 +14,21 @@ public class Principal {
 
         miPeli.muestraFichaTecnica();
         System.out.println(miPeli.calcularMedia());
+
+
+        Serie miSerie = new Serie();
+        miSerie.setNombre("Stringer things");
+        miSerie.setFechaLanzamiento(2021);
+        miSerie.setNumerotemporadas(3);
+        miSerie.setEpisodiosTemporada(15);
+        miSerie.setDuracionEpisodio(50);
+
+
+        miSerie.evaluacion(9);
+        miSerie.evaluacion(9);
+        miSerie.evaluacion(9);
+        miSerie.muestraFichaTecnica();
+        System.out.println(miSerie.calcularMedia());
+        System.out.println(miSerie.getDuracion());
     }
 }

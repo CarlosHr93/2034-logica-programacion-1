@@ -3,14 +3,14 @@ package com.misitio.clase;
 public class Titulo {
     private String nombre;
     int fechaLanzamiento;
-    int duracionPelicula;
+    int duracion;
     double valoracionUsuario;
     int totalValoraciones;
 
     public void muestraFichaTecnica(){
         System.out.println("El nombre de la pelicula"+nombre);
         System.out.println("La fecha de lanzamiento es:"+fechaLanzamiento);
-        System.out.println("Duracion de la pelicula es:"+duracionPelicula);
+        System.out.println("Duracion de la pelicula es:" +getDuracion());
 
     }
 
@@ -39,11 +39,11 @@ public class Titulo {
         this.fechaLanzamiento = fechaLanzamiento;
     }
 
-    public int getDuracionPelicula() {
-        return duracionPelicula;
+    public int getDuracion() {
+        return duracion;
     }
 
-    public void setDuracionPelicula(int duracionPelicula) {
-        this.duracionPelicula = duracionPelicula;
+    public void setDuracion(int duracionPelicula) {
+        this.duracion = duracionPelicula;
     }
 }

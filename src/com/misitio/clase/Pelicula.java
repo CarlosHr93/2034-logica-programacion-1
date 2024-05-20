@@ -1,6 +1,6 @@
 package com.misitio.clase;
 
-public class Pelicula {
+public class Pelicula extends Titulo{
 private String diretorPelicula;
 
     public String getDiretorPelicula() {

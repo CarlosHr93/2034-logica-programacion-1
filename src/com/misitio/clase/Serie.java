@@ -1,9 +1,14 @@
 package com.misitio.clase;
 
-public class Serie {
+public class Serie extends Titulo{
     int numerotemporadas;
     int episodiosTemporada;
     int duracionEpisodio;
+
+    @Override
+    public int getDuracion() {
+        return numerotemporadas*episodiosTemporada*duracionEpisodio;
+    }
 
     public int getEpisodiosTemporada() {
         return episodiosTemporada;
